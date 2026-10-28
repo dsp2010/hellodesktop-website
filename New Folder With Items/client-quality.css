@@ -1,0 +1,60 @@
+/* Readable service information and practical demo controls. */
+body{font-size:16px;line-height:1.7}
+.small,small{font-size:13px;line-height:1.75}
+.button{font-size:14px;min-height:48px}
+.textlink{font-size:14px;line-height:1.75}
+.header nav{font-size:13px}
+.header .button{white-space:nowrap}
+.page-shortcuts a{min-height:44px;display:inline-flex;align-items:center}
+.package-card-heading>p{font-size:14px}
+.package-setup{font-size:14px}
+.package-vat{font-size:12px}
+.package-allowances dt{font-size:13px}
+.package-allowances dd{font-size:14px}
+.package-commitment p,.package-important p,.package-details-body>p,.package-checks li,.package-detail-columns p,.package-extras-note{font-size:13px}
+.package-preview-note{font-size:13px}
+.package-cta{font-size:14px}
+.barber-ai-panel{gap:28px}
+.barber-ai-copy .pill{font-size:11px;letter-spacing:.7px}
+.barber-ai-copy p,.barber-ai-copy p.small{font-size:15px}
+.barber-ai-prompts li{font-size:15px}
+.barber-ai-controls>p,.barber-ai-controls p.small,.barber-ai-controls #barber-ai-status{font-size:14px;line-height:1.75}
+.barber-ai-controls .button{font-size:14px;min-height:48px}
+.barber-ai-disclosure{font-size:13px!important;line-height:1.8!important}
+.barber-mic-help>summary,.barber-mic-help p,.barber-mic-help label,.barber-mic-help .button,.barber-mic-help .textlink{font-size:13px}
+.barber-mic-help input.barber-mic-link{font-size:14px;min-height:44px}
+.barber-mic-error p{font-size:14px}
+.demo-evaluation{margin-top:24px;border-top:1px solid var(--line);padding-top:24px}
+.demo-evaluation h3{font-size:19px;margin-bottom:12px}
+.demo-evaluation ul{padding-left:21px;margin:0}
+.demo-evaluation li{font-size:14px;margin-bottom:9px;line-height:1.7}
+.demo-next-step{margin-top:25px;padding:24px;border:1px solid var(--line);border-radius:12px;background:#fff;display:flex;gap:24px;align-items:center;justify-content:space-between}
+.demo-next-step h2{font-size:24px;margin-bottom:9px}
+.demo-next-step p{font-size:14px;margin:0;max-width:620px}
+.demo-next-step .button{flex-shrink:0}
+.practice-privacy,.practice-disclosure,.practice-help,.practice-summary>.small,.practice-summary #practice-save-status{font-size:13px}
+.practice-actions .button,.practice-choices .button{font-size:14px}
+.guided-practice>summary>span{font-size:13px}
+.guided-practice .practice-message{font-size:14px}
+.footer-note{font-size:12px}
+@media(max-width:760px){
+ .header>.button{display:none}
+ .header>.menu-toggle{order:1}
+ .header>#navigation{order:2}
+ input,select,textarea,.form-card input,.form-card select,.form-card textarea,.barber-mic-help input.barber-mic-link{font-size:16px}
+ .header .button{font-size:12px;min-height:44px;gap:8px}
+ .barber-ai-copy p,.barber-ai-copy p.small,.barber-ai-prompts li{font-size:14px}
+ .barber-ai-controls{padding:22px}
+ .barber-ai-panel>.barber-ai-controls{order:-1}
+ .barber-ai-symbol{display:none}
+ .barber-ai-controls>p,.barber-ai-controls #barber-ai-status{font-size:14px}
+ .demo-next-step{display:block;padding:22px}
+ .demo-next-step .button{margin-top:20px;width:100%}
+ .package-card-heading>p,.package-commitment p,.package-important p,.package-checks li,.package-detail-columns p,.package-details-body>p{font-size:13px}
+ .package-allowances dt{font-size:13px}
+ .package-setup{font-size:14px}
+ .package-vat{font-size:12px}
+ .package-table th,.package-table td{font-size:13px}
+ .practice-help,.practice-disclosure,.practice-privacy{font-size:13px}
+}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{animation:none!important;transition:none!important}.button:hover{transform:none}}
