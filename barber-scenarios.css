@@ -1,0 +1,35 @@
+.barber-scenario-layout{display:grid;grid-template-columns:minmax(230px,.7fr) minmax(0,1.3fr);gap:35px;align-items:start}
+.barber-scenario-intro{padding:28px;border:1px solid var(--line);border-radius:14px;background:#edf3e6}
+.barber-scenario-intro h2{font-size:25px;margin-bottom:15px}
+.barber-scenario-intro p,.barber-scenario-intro li{font-size:14px;line-height:1.8}
+.barber-scenario-intro ul{padding-left:20px;margin-bottom:0}
+.barber-scenario-controls{margin-bottom:20px}
+.barber-scenario-controls label{font-size:14px;margin-top:0}
+.barber-scenario-controls select{font-size:16px;background:#fff}
+.barber-scenario-status{font-size:13px;color:var(--muted);margin:10px 0 0}
+.barber-scenario-panel{background:#fff;border:1px solid var(--line);border-radius:14px;padding:28px;scroll-margin-top:110px}
+.barber-scenario-panel+.barber-scenario-panel{margin-top:20px}
+.barber-scenario-panel[hidden]+.barber-scenario-panel{margin-top:0}
+.barber-scenario-panel .pill{font-size:11px;margin-bottom:17px;background:#edf3e6}
+.barber-scenario-panel h2{font-size:27px;margin-bottom:20px}
+.barber-scenario-panel h3{font-size:18px;margin-bottom:10px}
+.barber-scenario-panel .sample-dialogue p{font-size:15px;line-height:1.85}
+.barber-scenario-check{border-top:1px solid var(--line);padding-top:19px;margin-top:20px}
+.barber-scenario-check p{font-size:14px;color:var(--muted);margin:0}
+.barber-scenario-scope{padding:24px 28px;border:1px solid var(--line);border-radius:12px;margin-top:25px;background:#f0f4e9}
+.barber-scenario-scope h2{font-size:23px;margin-bottom:13px}
+.barber-scenario-scope p{font-size:14px;line-height:1.85;margin-bottom:0}
+.barber-recording{margin-top:30px;border:1px solid var(--line);border-radius:14px;padding:28px;background:#fff}
+.barber-recording h2{font-size:25px}
+.barber-recording audio{width:100%;margin:15px 0}
+.barber-recording .recording-transcript{white-space:pre-wrap;font-size:14px}
+.voice-scenario-controls{margin:25px 0 0}
+.voice-scenario-controls label{font-size:14px}
+.voice-scenario-controls select{font-size:16px;background:#fff}
+.voice-scenario-panel{margin-top:19px;border-top:1px solid #d4dfc7;padding-top:18px}
+.voice-scenario-panel h3{font-size:19px;margin:0 0 10px}
+.voice-scenario-panel .voice-scenario-prompt{font-size:16px;color:var(--ink);font-weight:600}
+.voice-scenario-panel .voice-scenario-expectation{font-size:14px;color:var(--muted)}
+.voice-scenario-scope{font-size:13px!important;line-height:1.8!important;margin-top:19px}
+[data-scenario-group][hidden],.barber-scenario-controls[hidden],.voice-scenario-controls[hidden]{display:none!important}
+@media(max-width:760px){.barber-scenario-layout{grid-template-columns:1fr;gap:25px}.barber-scenario-intro{padding:23px}.barber-scenario-panel{padding:23px}.barber-scenario-panel h2{font-size:25px}.barber-scenario-scope{padding:22px}.barber-recording{padding:22px}.voice-scenario-panel .voice-scenario-prompt{font-size:15px}.barber-scenario-status{font-size:13px}.barber-scenario-panel .actions .button{width:100%}}
