@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Contact HelloDesk | HelloDesk</title><meta name="description" content="Arrange a demo or ask about a barber website, booking system or pilot by WhatsApp or email.">
+<meta name="theme-color" content="#173c35"><meta property="og:type" content="website">
+<meta property="og:site_name" content="HelloDesk"><meta property="og:title" content="Contact HelloDesk | HelloDesk">
+<meta property="og:description" content="Arrange a demo or ask about a barber website, booking system or pilot by WhatsApp or email."><meta name="twitter:card" content="summary">
+<link rel="icon" href="favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="site.css">
+<script src="packages.js" defer></script><script src="config.js" defer></script><script src="site.js" defer></script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="header wrap"><a class="brand" href="index.html" aria-label="HelloDesk home"><span class="mark" aria-hidden="true">h<span>•</span></span>HelloDesk<span class="brand-dot">.</span></a>
+<button class="menu-toggle" aria-expanded="false" aria-controls="navigation">Menu <span aria-hidden="true">☰</span></button>
+<nav id="navigation" aria-label="Main navigation"><a href="index.html">Home</a><a href="barbers.html">For Barbers</a><a href="websites.html">Websites</a><a href="pricing.html">Pricing</a><a href="contact.html" aria-current="page">Contact</a></nav><a class="button" href="contact.html?interest=demo" >Arrange a demo<span aria-hidden="true">↗</span></a></header>
+<main id="main"><section class="wrap page-intro"><p class="eyebrow">LET’S TALK</p><h1>Tell us about<br><em>your shop.</em></h1><p class="lead">Ask a question, arrange a demo or discuss a website. Start wherever is easiest.</p></section><section class="wrap section top-none contact-layout"><aside class="contact-aside"><h2>A simple hello.</h2><p>Tell us about your shop using the enquiry form. Choose email or WhatsApp to send your message.</p><div class="actions"><a class="button" href="https://wa.me/447728833548?text=Hello+HelloDesk%2C+I+would+like+to+arrange+a+demo+for+my+barber+shop." data-whatsapp="demo">Open WhatsApp<span aria-hidden="true">↗</span></a></div><a id="scheduler" class="text-link" hidden target="_blank" rel="noopener noreferrer">View demo availability ↗</a><p class="small">Demo dates and times are requests until we confirm them with you.</p><p><a href="support.html">Need help with an existing setup? →</a></p></aside>
+<div class="panel"><h2>A short enquiry.</h2><p>We’ll prepare a message for you to review and send in your email app or WhatsApp.</p>
+<form id="enquiry" hidden>
+<div class="form-grid"><div><label for="shop">Shop name</label><input id="shop" name="shop" required maxlength="100" autocomplete="organization"></div><div><label for="contact-name">Contact name</label><input id="contact-name" name="contact-name" required maxlength="80" autocomplete="name"></div></div>
+<label for="reply">How would you like us to reply?</label><select id="reply" name="reply"><option value="email">Email</option><option value="whatsapp">WhatsApp</option></select>
+<label id="reply-label" for="reply-address">Your email address</label><input id="reply-address" name="reply-address" type="email" autocomplete="email" required maxlength="254" aria-describedby="reply-help"><small id="reply-help">We’ll use this address to reply to your enquiry.</small>
+<label for="interest">What are you interested in?</label><select id="interest" name="interest"><option value="enquiry">A general enquiry</option><option value="demo">Arrange a demo</option><option value="website">A barber website</option><option value="booking">Check my booking system</option><option value="pilot">Apply for a pilot</option><option value="support">Help with an existing setup</option><option value="change">Request a change</option><option value="setup">A setup question</option></select>
+<p id="chosen-plan" class="notice" hidden></p>
+<fieldset id="booking-fields" hidden disabled><legend>Your booking setup</legend><label for="booking-method">Current booking method</label><select id="booking-method"><option>Google Calendar</option><option>Booksy</option><option>Fresha</option><option>Another platform</option><option>Manual diary</option><option>Walk-ins</option><option>Not sure</option></select><label for="booking-help">What help would you like?</label><select id="booking-help"><option>Answering questions</option><option>Taking messages</option><option>Appointment requests</option><option>Checking availability and booking</option><option>Changes and cancellations</option></select></fieldset>
+<fieldset id="demo-fields" hidden disabled><legend>Your demo request</legend><label for="preferred-time">Preferred day or time <span>(optional)</span></label><input id="preferred-time" maxlength="100" aria-describedby="time-help"><small id="time-help">Include your time zone. This is a request, not a confirmed appointment.</small></fieldset>
+<p id="pilot-note" class="notice" hidden>Pilot suitability, scope, price, duration and inclusions must be agreed before starting. Applying does not start a subscription or create a payment obligation.</p>
+<label for="question">Question or short message <span>(optional)</span></label><textarea id="question" rows="4" maxlength="600" aria-describedby="question-help"></textarea><small id="question-help">Please leave out passwords, payment-card details and customer records.</small>
+<p class="small">Your details let us reply about your shop. They stay in this page until you choose to open a draft. <a href="privacy.html">How we use your information</a>.</p>
+<button class="button" type="submit">Review my message <span aria-hidden="true">→</span></button>
+</form><noscript><p><a href="contact.html">Make an enquiry</a> · <a href="https://wa.me/447728833548">Contact us on WhatsApp</a></p></noscript></div></section>
+<dialog id="message-review" aria-labelledby="review-title"><button id="close-review" class="close" aria-label="Close message review" autofocus>×</button><p class="eyebrow">CHECK BEFORE SENDING</p><h2 id="review-title">Your message.</h2><pre id="message-text"></pre><p id="draft-status" class="notice" role="status"></p><div class="actions"><a id="draft-email" class="button">Open an email draft ↗</a><a id="draft-whatsapp" class="button secondary" target="_blank" rel="noopener noreferrer">Open WhatsApp draft ↗</a></div><p class="small">If your email app does not open, try the WhatsApp option. You can close this window to edit your details.</p></dialog></main>
+<footer class="wrap footer"><div><a class="brand" href="index.html">HelloDesk.</a><p>Telephone help and websites.<br>Made for UK barber shops.</p></div>
+<div><p class="footer-label">Get in touch</p><a href="contact.html">Make an enquiry</a></div>
+<nav aria-label="More information"><a href="about.html">About HelloDesk</a><a href="support.html">Customer support</a><a href="pilot.html">Apply for a pilot</a><a href="barber-setup.html">Your setup brief</a><a href="privacy.html">Privacy</a></nav>
+<p class="footer-bottom">© 2026 HelloDesk · Built around your shop.</p></footer>
+<noscript><p class="wrap notice">Interactive tools need JavaScript. You can still read the pages and contact us by email or WhatsApp.</p><style>.menu-toggle{display:none!important}#navigation{display:flex!important;position:static!important;flex-wrap:wrap}.header{flex-wrap:wrap}</style></noscript>
+</body></html>
